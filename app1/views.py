@@ -4,3 +4,8 @@ from django.http import HttpResponse
 def vista1(request):
     return HttpResponse("<h1>Vista1 app1 </h1>"
 "<p style= 'color:blue'> Todo lo que necesitas </p>")
+
+def vista2(request):
+    return HttpResponse("<h1>Vista2 app1 </h1>"
+"<p style= 'color:blue'> Todo lo que necesitas </p>")
+
